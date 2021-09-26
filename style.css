@@ -1,0 +1,209 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200;1,300&display=swap");
+
+* {
+  font-family: "Montserrat";
+  padding: 0px;
+  margin: 0px;
+  text-align: justify;
+  box-sizing: border-box;
+}
+
+body {
+  background: #ededed;
+}
+
+p {
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+header {
+  width: 100%;
+  padding: 20px 0px;
+  background: url(etoiles.jpg) #4f4f4f;
+  box-shadow: 0px 0px 15px #333;
+  height: 120px;
+}
+
+header h1 {
+  color: white;
+  font-size: 1.5em;
+  width: 90%;
+  margin: 0 auto;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: safe;
+  text-align: justify;
+  width: 100%;
+  padding-bottom: 20px;
+  margin: 20px 8px;
+  border-bottom: 2px solid grey;
+}
+
+section h2 {
+  margin: 20px 0;
+  width: 90%;
+}
+
+section > div {
+  width: 90%;
+}
+
+.photo {
+  text-align: center;
+}
+
+.photo img {
+  width: 150px;
+  height: 150px;
+  border: 3px solid #fff;
+  box-shadow: 0px 0px 10px #777;
+  border-radius: 50%;
+  margin-top: -80px;
+}
+
+.prez {
+  border-bottom: 2px dashed #ccc;
+}
+
+.prez a {
+  display: block;
+  text-align: center;
+  padding: 10px;
+  margin: 10px auto 30px auto;
+  color: #fff;
+  background-color: #ea0;
+  box-shadow: 0px 0px 10px #ccc;
+  border-radius: 5px;
+}
+
+.contact-flex {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+.contact-flex p:first-child {
+  flex: 0 0 40%;
+}
+
+.contact-flex p:last-child {
+  flex: 0 0 60%;
+}
+
+.exp {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.exp-info {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.exp-logo {
+  flex: 0 0 25%;
+  max-width: 100px;
+  width: 110px;
+  height: 110px;
+  object-fit: cover;
+}
+
+.exp-info {
+  flex: 0 0 70%;
+  margin-left: auto;
+}
+
+.exp img {
+  width: 100%;
+}
+
+.exp h3 {
+  font-size: 1.2em;
+}
+.exp h4 {
+  font-size: 1em;
+  font-weight: normal;
+}
+
+.comp {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.comp p {
+  flex: 0 0 40%;
+}
+
+.conteneur-barre {
+  flex: 0 0 60%;
+  border-radius: 5px;
+  background-color: grey;
+  border-bottom: 1px ridge grey;
+}
+
+.barre {
+  display: block;
+  height: 100%;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.c85 {
+  width: 85%;
+  background-color: #888;
+}
+
+.barre c85 {
+  width: 85%;
+  background-color: ;
+}
+
+.c100 {
+  width: 100%;
+  background-color: #4b8;
+  border-radius: 5px;
+}
+
+.c90 {
+  width: 90%;
+  background-color: #488;
+}
+.barre c90 {
+  width: 90%;
+  background-color: #488;
+}
+
+.c95 {
+  width: 95%;
+  background-color: #488;
+}
+
+.comp2 {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.conteneur-barre2 {
+  flex: 0 0 100%;
+  height: 0.5em;
+  margin-bottom: 0.25em;
+  border-radius: 5px;
+  background-color: grey;
+}
+
+.h3gauche {
+  width: 90%;
+}
